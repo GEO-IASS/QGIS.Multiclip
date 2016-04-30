@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Multi Clip
+qgisMinimumVersion=2.0
+description=Clips a layer into new shapefiles defined by each polygon in another layer.
+version=0.1
+author=Jack Houk
+email=john.houk@mymail.champlain.edu
+
+about=This plugin allows you to clip a shapefile into multiple shapefiles. Select an overlay shape and a shape to be clipped and the shape to be clipped will be clipped into a set of shapefiles, one for each polygon in the overlay.
+
+tracker=https://github.com/JackHouk/QGIS.Multiclip/issues
+repository=https://github.com/JackHouk/QGIS.Multiclip.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
