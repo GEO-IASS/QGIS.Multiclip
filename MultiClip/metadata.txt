@@ -28,7 +28,7 @@ repository=https://github.com/JackHouk/QGIS.Multiclip.git
 # Tags are comma separated with spaces allowed
 tags=
 
-homepage=
+homepage=https://github.com/JackHouk/QGIS.Multiclip.git
 category=Vector
 icon=icon.png
 # experimental flag
